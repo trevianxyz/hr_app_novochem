@@ -1,12 +1,12 @@
-name: Deploy to GitHub Pages
+name: HR App Novochem
 
 on:
   push:
-    branches: ['main']
+    branches: ["main"]
   workflow_dispatch:
 
 concurrency:
-  group: 'pages'
+  group: "pages"
   cancel-in-progress: false
 
 env:

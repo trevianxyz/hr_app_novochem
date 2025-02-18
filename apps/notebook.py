@@ -1,7 +1,7 @@
 from typing import Annotated, Callable, Coroutine
 # from fastapi.responses import HTMLResponse, RedirectResponse
 import marimo
-from fastapi import FastAPI, Form, Request, Response
+
 from pydantic import BaseModel
 import os
 import logging
@@ -25,9 +25,7 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 # from app.scripts.llm.gpt_call import create_chatbot_response
 
 
-# __generated_with = "0.11.6"
-
-load_dotenv()
+__generated_with = "0.11.6"
 
 app = marimo.App(width="medium")
 

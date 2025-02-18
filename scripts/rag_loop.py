@@ -202,4 +202,4 @@ async def get_context(embedding_model: str, content_item: str, collection_name: 
         return {"search_results": "", "context_nodes": []}
 
 
-# __all__ = ["get_embeddings_and_search_qdrant", "get_context"]
+__all__ = ["get_embeddings_and_search_qdrant", "get_context"]
